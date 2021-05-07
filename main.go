@@ -16,9 +16,9 @@
 package main
 
 import (
-	"./gonnman"
-	"./hostapd"
-	"github.com/nextthingco/gonnman"
+	"github.com/PopcornComputer/gonnman"
+	"github.com/PopcornComputer/wifi-onboarding/gonnman"
+	"github.com/PopcornComputer/wifi-onboarding/hostapd"
 	"io/ioutil"
 	"os"
 	"time"

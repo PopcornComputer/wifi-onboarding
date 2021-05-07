@@ -17,7 +17,7 @@ package main
 
 import (
 	"errors"
-	"github.com/nextthingco/gonnman"
+	"github.com/PopcornComputer/gonnman"
 )
 
 func getAccessPointByPath(path string) (*connman.Service, error) {

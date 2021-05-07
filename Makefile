@@ -19,7 +19,7 @@ endif
 
 DEPENDS=\
 	github.com/gin-gonic/gin \
-	github.com/nextthingco/gonnman
+	github.com/PopcornComputer/gonnman
 
 all: $(WIFI_CONNECT_SOURCES)
 	@echo "Building Wifi-Connect"

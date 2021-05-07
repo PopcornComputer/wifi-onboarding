@@ -16,8 +16,8 @@
 package main
 
 import (
+	"github.com/PopcornComputer/gonnman"
 	"github.com/gin-gonic/gin"
-	"github.com/nextthingco/gonnman"
 	"net/http"
 )
 
