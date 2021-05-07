@@ -36,9 +36,3 @@ all: $(WIFI_CONNECT_SOURCES)
 clean:
 	@echo "Cleaning"
 	@rm -rf build/ wifi-onboarding
-
-get:
-	@echo "Downloading external dependencies"
-	go get ${DEPENDS}
-	@echo "Finished downloading external dependencies"
-	@echo ${DEPENDS}
