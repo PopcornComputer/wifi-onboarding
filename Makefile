@@ -17,9 +17,6 @@ ifeq ($(strip $(WIFI_ONBOARDING_DEFAULT_PORT)),)
 WIFI_ONBOARDING_DEFAULT_PORT=":8080"
 endif
 
-DEPENDS=\
-	github.com/gin-gonic/gin \
-	github.com/PopcornComputer/gonnman
 
 all: $(WIFI_CONNECT_SOURCES)
 	@echo "Building Wifi-Connect"
